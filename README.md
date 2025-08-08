@@ -138,7 +138,3 @@ To extend this application:
 - **Redis Connection**: Verify Redis server is running
 - **Port Conflicts**: Make sure ports 5000 and 5173 are available
 - **Environment Variables**: Double-check all required environment variables are set
-
-## License
-
-This project is open source and available under the MIT License.
