@@ -27,7 +27,9 @@ Before running this application, you need to set up:
    Fill in your .env file with:
    ```env
    MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/chatapp?retryWrites=true&w=majority
-   REDIS_URL=rediss://username:password@host:port
+   REDIS_HOST=your-redis-host
+   REDIS_PORT=your-redis-port
+   REDIS_PASSWORD=your-redis-password
    PORT=3001
    JWT_SECRET=your-super-secret-jwt-key
    CLIENT_URL=http://localhost:5173
